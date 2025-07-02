@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(209, 11, 11);
+    margin-right: 59px;
+}
+
+.h1{
+    font-size: 7rem;
+    color: rgb(228, 234, 240);    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p {
+
+    font-size: 3rem;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.map-section {
+    display: flex;
+    justify-content: center;
+    /* Centre horizontalement */
+
+    flex-direction: column;
+    background-color: orange;
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    color: black;
+    gap: 30px;
+}
+
+.about-section {
+    background-color: rgb(214, 141, 52);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 
+    
+      
+}
+
+/* .left {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3rem;
+    color: black;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: rgba(58, 44, 44, 0.452);
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    font-size: 3rem;
+    color: black;
+} */
